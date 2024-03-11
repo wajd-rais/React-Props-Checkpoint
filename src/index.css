@@ -1,0 +1,32 @@
+body {
+  margin: 100;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+@keyframes rotate {
+  0% { border: 3px solid red; }
+  10% { border: 3px solid orange; }
+  20% { border: 3px solid yellow; }
+  30% { border: 3px solid green; }
+  40% { border: 3px solid blue; }
+  50% { border: 3px solid indigo; }
+  60% { border: 3px solid violet; }
+  70% { border: 3px solid rgb(255, 0, 255); } 
+  80% { border: 3px solid rgb(255, 165, 0); } 
+  90% { border: 3px solid rgb(0, 128, 128); } 
+  100% { border: 3px solid red; }
+}
+
+
+.rotating-border {
+  animation: rotate 4s linear infinite;
+}
